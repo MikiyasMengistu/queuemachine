@@ -1,1 +1,1 @@
-# queuemachine
+Ticket Machine - Python project 
