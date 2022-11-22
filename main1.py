@@ -4,18 +4,19 @@ import numbers1
 turn = numbers1.queue_dict  # turn is dictionary that exists on numbers1' module. it consists of areas of drug stor as
                            # key and list of turn numbers1 as value
 count = 0
-areas = "."
+keep = "."
 
-while areas != "e" and count<3:  # if the user enters 'e' the loop will be terminated
+while keep != "n" and count<3:  # if the user enters 'e' the loop will be terminated
     id_num = input("enter your id: ")
     if id_num in numbers1.customers:
         numbers1.process()
-        keep = input("Do you wanna continue, y/n: ")
+        keep = input("Are you sure to exit, y/n: ")
         if keep == "y":
             numbers1.process()
-        else:
+            count = 0
             continue
-        count = 0
+        else:
+            break
     else:
         count += 1
         continue
