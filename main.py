@@ -23,4 +23,4 @@ if __name__ == '__main__':
         print("So many trials, come back after 5 sec")
         counter1(5)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
