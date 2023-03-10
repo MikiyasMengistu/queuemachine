@@ -17,6 +17,64 @@ it will ask us if we want to take another number to simulate the arrival of a ne
 - [@mikiyasalehegn](https://www.github.com/mikiyasalehegn)
 
 
+## Usage/Examples
+Here is the example when you run the code
+```
+M:\class\Python\queuemachine\Scripts\python.exe C:\Users\user\Desktop\Git\queuemachine\main.py 
+enter your id: 123456
+             Welcome to our drugstore!            
+  		Choose, c - for cosmetic products
+  		Choose, pe - for perfume products
+  		Choose, ph - for pharmacy products
+enter 'e' to exit.
+Which place you want to visit?  c
+ Your number is
+c - 1
+Please wait and someone will assist you shortly.
+             Welcome to our drugstore!            
+  		Choose, c - for cosmetic products
+  		Choose, pe - for perfume products
+  		Choose, ph - for pharmacy products
+enter 'e' to exit.
+Which place you want to visit?  pe
+ Your number is
+pe - 1
+Please wait and someone will assist you shortly.
+             Welcome to our drugstore!            
+  		Choose, c - for cosmetic products
+  		Choose, pe - for perfume products
+  		Choose, ph - for pharmacy products
+enter 'e' to exit.
+Which place you want to visit?  c
+ Your number is
+c - 2
+Please wait and someone will assist you shortly.
+             Welcome to our drugstore!            
+  		Choose, c - for cosmetic products
+  		Choose, pe - for perfume products
+  		Choose, ph - for pharmacy products
+enter 'e' to exit.
+Which place you want to visit?  p
+             Welcome to our drugstore!            
+  		Choose, c - for cosmetic products
+  		Choose, pe - for perfume products
+  		Choose, ph - for pharmacy products
+enter 'e' to exit.
+Which place you want to visit?  ph
+ Your number is
+ph - 1
+Please wait and someone will assist you shortly.
+             Welcome to our drugstore!            
+  		Choose, c - for cosmetic products
+  		Choose, pe - for perfume products
+  		Choose, ph - for pharmacy products
+enter 'e' to exit.
+Which place you want to visit?  e
+Are you sure to exit, y/n: y
+
+Process finished with exit code 0
+```
+
 ## Tech Stack
 
 - Python
